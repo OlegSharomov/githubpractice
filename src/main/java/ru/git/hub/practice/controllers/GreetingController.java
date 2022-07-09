@@ -15,4 +15,8 @@ public class GreetingController {
     public String sayHi(){
         return "Hi!";
     }
+    @GetMapping("/bye")
+    public String sayBye(){
+        return "bye!";
+    }
 }
