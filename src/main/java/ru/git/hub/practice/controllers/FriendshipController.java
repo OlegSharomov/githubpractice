@@ -14,11 +14,11 @@ public class FriendshipController {
     }
 
     public String approval(){
-        System.out.println("Do you really wont to be friends?\n1 - Yes, \n2 - No");
+        System.out.println("Do you really wont to be friends?\n0 - Yes, \n1 - No");
         int answer = scanner.nextInt();
-        if(answer == 1){
+        if(answer == 0){
             return "Super!";
-        } else if(answer == 2){
+        } else if(answer == 1){
             return "I'm laugh at it";
         } else{
             return "wrong command";

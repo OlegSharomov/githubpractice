@@ -13,10 +13,10 @@ public class GreetingController {
 
     @GetMapping("/hi")
     public String sayHi(){
-        return "Hi!";
+        return "Hi man!";
     }
     @GetMapping("/bye")
     public String sayBye(){
-        return "bye!";
+        return "bye man!";
     }
 }
