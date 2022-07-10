@@ -8,15 +8,15 @@ public class GreetingController {
 
     @GetMapping
     public String sayHello(){
-        return "Hello my friend!";
+        return "Hello my dear mammy!";
     }
 
     @GetMapping("/hi")
     public String sayHi(){
-        return "Hi!";
+        return "Hi mam!";
     }
     @GetMapping("/bye")
     public String sayBye(){
-        return "bye!";
+        return "bye mam!";
     }
 }
